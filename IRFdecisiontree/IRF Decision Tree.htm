@@ -1,0 +1,945 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:ResourceLoader="urn:ResourceLoader">
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>IRF Decision Tree</title>
+    <link type="text/css" rel="stylesheet" href="IRF Decision Tree_folder/stylesheets/AnswerPath-Generated-Default-Stylesheet.css">
+        <script type="text/javascript" lang="javascript" src="IRF Decision Tree_folder/javascript/jquery-1.6.2.js"></script>
+        <script type="text/javascript" lang="javascript" src="IRF Decision Tree_folder/javascript/jquery.ba-bbq.js"></script>
+        <script type="text/javascript" lang="javascript" src="IRF Decision Tree_folder/javascript/MapitDesignerObjects.js"></script>
+        <script type="text/javascript" lang="javascript" src="IRF Decision Tree_folder/javascript/MapitDesigner.js"></script>
+        </head>
+  <body id="docBody" class="main">
+    <div class="script">
+      <div class="intro" style="width:100%"></div><br><div class="header">
+        <h1 class="headerTitle">IRF Decision Tree</h1>
+      </div>
+      <div class="clear"></div>
+      <div>
+        <div>
+          <div id="leftContainer" class="leftContainer">
+            <div id="leftbox">
+              <div class="breadcrumbsTitle">Pages</div><br><div id="breadcrumbs" class="breadcrumbs"></div>
+            </div>
+          </div>
+          <div id="rightContainer" class="rightContainer">
+            <div id="box">
+              <div class="pageContainer">
+                <div class="page" style="display:none" id="Section1">
+                  <div class="pageComponent pageQuestion">
+                    <div class="pageQuestionHeader"><img class="pageQuestionIconQ" alt="" src="IRF Decision Tree_folder/images/Q.png"><div class="pageQuestionText">Select a diagnostic group</div>
+                    </div>
+                    <div class="pageQuestionResponse"><img class="pageQuestionIconA" alt="" src="IRF Decision Tree_folder/images/A.png"><div class="pageQuestionInputs">
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup2" id="RadioButton1" value="Central Nervous System (CNS)"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton1')).prop('checked', true);&#xA;                              " style="cursor: default;">Central Nervous System (CNS)</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup2" id="RadioButton2" value="Orthopedic"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton2')).prop('checked', true);&#xA;                              " style="cursor: default;">Orthopedic</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup2" id="RadioButton3" value="Burn"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton3')).prop('checked', true);&#xA;                              " style="cursor: default;">Burn</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup2" id="RadioButton4" value="Medically Intense"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton4')).prop('checked', true);&#xA;                              " style="cursor: default;">Medically Intense</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup2" id="RadioButton6" value="Spinal Cord (With partial or complete loss of function)"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton6')).prop('checked', true);&#xA;                              " style="cursor: default;">Spinal Cord (With partial or complete loss of function)</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup2" id="RadioButton45" value="None of the Above"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton45')).prop('checked', true);&#xA;                              " style="cursor: default;">None of the Above</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page" style="display:none" id="Section3">
+                  <div class="pageComponent pageQuestion">
+                    <div class="pageQuestionHeader"><img class="pageQuestionIconQ" alt="" src="IRF Decision Tree_folder/images/Q.png"><div class="pageQuestionText">Is diagnoses within the past 30 days?</div>
+                    </div>
+                    <div class="pageQuestionResponse"><img class="pageQuestionIconA" alt="" src="IRF Decision Tree_folder/images/A.png"><div class="pageQuestionInputs">
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup6" id="RadioButton7" value="Yes"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton7')).prop('checked', true);&#xA;                              " style="cursor: default;">Yes</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup6" id="RadioButton8" value="No"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton8')).prop('checked', true);&#xA;                              " style="cursor: default;">No</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page" style="display:none" id="Section5">
+                  <div class="pageComponent pageQuestion">
+                    <div class="pageQuestionHeader"><img class="pageQuestionIconQ" alt="" src="IRF Decision Tree_folder/images/Q.png"><div class="pageQuestionText">Central Nervous System (CNS)</div>
+                    </div>
+                    <div class="pageQuestionResponse"><img class="pageQuestionIconA" alt="" src="IRF Decision Tree_folder/images/A.png"><div class="pageQuestionInputs">
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup7" id="RadioButton9" value="<FONT size=2 face=Calibri>Moderate to severe anoxic or traumatic brain injury (TBI)</FONT>"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton9')).prop('checked', true);&#xA;                              " style="cursor: default;"><FONT size=2 face=Calibri>Moderate to severe anoxic or traumatic brain injury (TBI)</FONT></div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup7" id="RadioButton10" value="<FONT size=2 face=Calibri>Status Post Craniotomy</FONT>"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton10')).prop('checked', true);&#xA;                              " style="cursor: default;"><FONT size=2 face=Calibri>Status Post Craniotomy</FONT></div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup7" id="RadioButton11" value="<P style=&quot;MARGIN: 0in 0in 8pt&quot; class=MsoNormal><FONT face=Calibri><FONT size=2><SPAN style=&quot;mso-ansi-language: EN; mso-bidi-font-weight: bold&quot; lang=EN>Cerebrovascular Accident</SPAN><SPAN style=&quot;mso-ansi-language: EN&quot; lang=EN> (<SPAN style=&quot;mso-bidi-font-weight: bold&quot;>CVA</SPAN>)</SPAN></FONT></FONT><?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; /><o:p></o:p></P>"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton11')).prop('checked', true);&#xA;                              " style="cursor: default;"><P style="MARGIN: 0in 0in 8pt" class=MsoNormal><FONT face=Calibri><FONT size=2><SPAN style="mso-ansi-language: EN; mso-bidi-font-weight: bold" lang=EN>Cerebrovascular Accident</SPAN><SPAN style="mso-ansi-language: EN" lang=EN> (<SPAN style="mso-bidi-font-weight: bold">CVA</SPAN>)</SPAN></FONT></FONT><?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></P></div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup7" id="RadioButton12" value="<FONT size=2 face=Calibri>Intracranial or Subdural Hemorrhage</FONT>"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton12')).prop('checked', true);&#xA;                              " style="cursor: default;"><FONT size=2 face=Calibri>Intracranial or Subdural Hemorrhage</FONT></div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup7" id="RadioButton13" value="<FONT size=2 face=Calibri>Meningitis or Encephelitis</FONT>"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton13')).prop('checked', true);&#xA;                              " style="cursor: default;"><FONT size=2 face=Calibri>Meningitis or Encephelitis</FONT></div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup7" id="RadioButton14" value="<FONT size=2 face=Calibri><P>Guillain-Barré</P></FONT>"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton14')).prop('checked', true);&#xA;                              " style="cursor: default;"><FONT size=2 face=Calibri><P>Guillain-Barré</P></FONT></div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup7" id="RadioButton37" value="<FONT size=2 face=Calibri>None of the Above</FONT>"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton37')).prop('checked', true);&#xA;                              " style="cursor: default;"><FONT size=2 face=Calibri>None of the Above</FONT></div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page" style="display:none" id="Section6">
+                  <div class="pageComponent pageQuestion">
+                    <div class="pageQuestionHeader"><img class="pageQuestionIconQ" alt="" src="IRF Decision Tree_folder/images/Q.png"><div class="pageQuestionText">Orthopedic</div>
+                    </div>
+                    <div class="pageQuestionResponse"><img class="pageQuestionIconA" alt="" src="IRF Decision Tree_folder/images/A.png"><div class="pageQuestionInputs">
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup8" id="RadioButton15" value="Hip Fracture w/ Active Comorbid Medical Condition that requires daily monitoring but must be at low risk for medical instability."></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton15')).prop('checked', true);&#xA;                              " style="cursor: default;">Hip Fracture w/ Active Comorbid Medical Condition that requires daily monitoring but must be at low risk for medical instability.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup8" id="RadioButton16" value="Arthritis failing trial of outpatient rehab - requires 24hr rehab nursing care - patient had course of therapy at outpatient rehabilitation facility w/out improvement. Does not include home w/ home health."></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton16')).prop('checked', true);&#xA;                              " style="cursor: default;">Arthritis failing trial of outpatient rehab - requires 24hr rehab nursing care - patient had course of therapy at outpatient rehabilitation facility w/out improvement. Does not include home w/ home health.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup8" id="RadioButton17" value="Bilateral joint replacements w/ Active Comorbid Medical Condition that requires daily monitoring but must be at low risk for medical instability."></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton17')).prop('checked', true);&#xA;                              " style="cursor: default;">Bilateral joint replacements w/ Active Comorbid Medical Condition that requires daily monitoring but must be at low risk for medical instability.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup8" id="RadioButton18" value="Amputation (AKA, BKA, etc.) w/ Active Comorbid Medical Condition that requires daily monitoring but must be at low risk for medical instability."></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton18')).prop('checked', true);&#xA;                              " style="cursor: default;">Amputation (AKA, BKA, etc.) w/ Active Comorbid Medical Condition that requires daily monitoring but must be at low risk for medical instability.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup8" id="RadioButton38" value="None of the Above"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton38')).prop('checked', true);&#xA;                              " style="cursor: default;">None of the Above</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page" style="display:none" id="Section7">
+                  <div class="pageComponent pageQuestion">
+                    <div class="pageQuestionHeader"><img class="pageQuestionIconQ" alt="" src="IRF Decision Tree_folder/images/Q.png"><div class="pageQuestionText">Medically Intense</div>
+                    </div>
+                    <div class="pageQuestionResponse"><img class="pageQuestionIconA" alt="" src="IRF Decision Tree_folder/images/A.png"><div class="pageQuestionInputs">
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup9" id="RadioButton19" value="Progressive CNS disease-failed outpatient - requires 24hr rehab nursing care - patient had course of therapy at outpatient rehabilitation facility w/out improvement. Does not include home w/ home health."></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton19')).prop('checked', true);&#xA;                              " style="cursor: default;">Progressive CNS disease-failed outpatient - requires 24hr rehab nursing care - patient had course of therapy at outpatient rehabilitation facility w/out improvement. Does not include home w/ home health.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup9" id="RadioButton20" value="Cardiac disease or surgery w/ Active Comorbid Medical Condition that requires daily monitoring but must be at low risk for medical instability."></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton20')).prop('checked', true);&#xA;                              " style="cursor: default;">Cardiac disease or surgery w/ Active Comorbid Medical Condition that requires daily monitoring but must be at low risk for medical instability.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup9" id="RadioButton21" value="Multiple trauma"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton21')).prop('checked', true);&#xA;                              " style="cursor: default;">Multiple trauma</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup9" id="RadioButton22" value="Malignancy that is not endstage."></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton22')).prop('checked', true);&#xA;                              " style="cursor: default;">Malignancy that is not endstage.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup9" id="RadioButton43" value="Systemic vasculitities-failed outpatient - requires 24hr rehab nursing care - patient had course of therapy at outpatient rehabilitation facility w/out improvement. Does not include home w/ home health."></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton43')).prop('checked', true);&#xA;                              " style="cursor: default;">Systemic vasculitities-failed outpatient - requires 24hr rehab nursing care - patient had course of therapy at outpatient rehabilitation facility w/out improvement. Does not include home w/ home health.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup9" id="RadioButton44" value="None of the Above"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton44')).prop('checked', true);&#xA;                              " style="cursor: default;">None of the Above</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page" style="display:none" id="Section8">
+                  <div class="pageComponent pageQuestion">
+                    <div class="pageQuestionHeader"><img class="pageQuestionIconQ" alt="" src="IRF Decision Tree_folder/images/Q.png"><div class="pageQuestionText">Spinal Cord - With partial or complete loss of function</div>
+                    </div>
+                    <div class="pageQuestionResponse"><img class="pageQuestionIconA" alt="" src="IRF Decision Tree_folder/images/A.png"><div class="pageQuestionInputs">
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup10" id="RadioButton23" value="Traumatic Injury"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton23')).prop('checked', true);&#xA;                              " style="cursor: default;">Traumatic Injury</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup10" id="RadioButton24" value="Infection"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton24')).prop('checked', true);&#xA;                              " style="cursor: default;">Infection</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup10" id="RadioButton25" value="Neoplasm"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton25')).prop('checked', true);&#xA;                              " style="cursor: default;">Neoplasm</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup10" id="RadioButton26" value="Spinal Surgery (e.g., spinal fusion, insertion of rods, compression fx, etc.) with new neurologic deficits."></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton26')).prop('checked', true);&#xA;                              " style="cursor: default;">Spinal Surgery (e.g., spinal fusion, insertion of rods, compression fx, etc.) with new neurologic deficits.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup10" id="RadioButton46" value="None of the Above"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton46')).prop('checked', true);&#xA;                              " style="cursor: default;">None of the Above</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page" style="display:none" id="Section9">
+                  <div class="pageComponent pageQuestion">
+                    <div class="pageQuestionHeader"><img class="pageQuestionIconQ" alt="" src="IRF Decision Tree_folder/images/Q.png"><div class="pageQuestionText">Prior Level of Function</div>
+                    </div>
+                    <div class="pageQuestionResponse"><img class="pageQuestionIconA" alt="" src="IRF Decision Tree_folder/images/A.png"><div class="pageQuestionInputs">
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup11" id="RadioButton27" value="Independent in the community - working, driving and/or active in the community."></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton27')).prop('checked', true);&#xA;                              " style="cursor: default;">Independent in the community - working, driving and/or active in the community.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup11" id="RadioButton28" value="Independent in the home - able to complete ADLs and IADLs w/out assistance."></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton28')).prop('checked', true);&#xA;                              " style="cursor: default;">Independent in the home - able to complete ADLs and IADLs w/out assistance.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup11" id="RadioButton29" value="Home w/ caregiver assistance - requires some assistance w/ ADLs or IADLs. Has willing and able caregiver."></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton29')).prop('checked', true);&#xA;                              " style="cursor: default;">Home w/ caregiver assistance - requires some assistance w/ ADLs or IADLs. Has willing and able caregiver.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup11" id="RadioButton30" value="Assissted Living Facility (ALF)/Personal Care Home (PCH)"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton30')).prop('checked', true);&#xA;                              " style="cursor: default;">Assissted Living Facility (ALF)/Personal Care Home (PCH)</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup11" id="RadioButton31" value="Long-term Care (LTC)/Custodial - dependent prior level of function."></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton31')).prop('checked', true);&#xA;                              " style="cursor: default;">Long-term Care (LTC)/Custodial - dependent prior level of function.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup11" id="RadioButton32" value="Cognitive impairment with inability to follow commands and learn new information."></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton32')).prop('checked', true);&#xA;                              " style="cursor: default;">Cognitive impairment with inability to follow commands and learn new information.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page" style="display:none" id="Section10">
+                  <div class="pageComponent pageQuestion">
+                    <div class="pageQuestionHeader"><img class="pageQuestionIconQ" alt="" src="IRF Decision Tree_folder/images/Q.png"><div class="pageQuestionText">Current Level of Function (Check All That Apply)</div>
+                    </div>
+                    <div class="pageQuestionResponse"><img class="pageQuestionIconA" alt="" src="IRF Decision Tree_folder/images/A.png"><div class="pageQuestionInputs">
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageCheckboxInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="checkbox" name="AnswerGroup12" id="AnswerGroup12.CheckboxInput1" value="Able to follow directions and willing to participate in rehab - must be able to follow directions of at least 2 step commands."></td>
+                                <td>
+                                  <div class="pageInputLabel pageCheckboxInputLabel" onclick="document.getElementById('AnswerGroup12.CheckboxInput1').checked = !document.getElementById('AnswerGroup12.CheckboxInput1').checked;" style="cursor: default;">Able to follow directions and willing to participate in rehab - must be able to follow directions of at least 2 step commands.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageCheckboxInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="checkbox" name="AnswerGroup12" id="AnswerGroup12.CheckboxInput2" value="Able to participate in and needs 15 hours of therapy per week - if notes state poor endurance, fatigues easily, requires multiple rest breaks, gets shortness of breath w/ activity."></td>
+                                <td>
+                                  <div class="pageInputLabel pageCheckboxInputLabel" onclick="document.getElementById('AnswerGroup12.CheckboxInput2').checked = !document.getElementById('AnswerGroup12.CheckboxInput2').checked;" style="cursor: default;">Able to participate in and needs 15 hours of therapy per week - if notes state poor endurance, fatigues easily, requires multiple rest breaks, gets shortness of breath w/ activity.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageCheckboxInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="checkbox" name="AnswerGroup12" id="AnswerGroup12.CheckboxInput3" value="Requires 2 or more therapy modalities including PT."></td>
+                                <td>
+                                  <div class="pageInputLabel pageCheckboxInputLabel" onclick="document.getElementById('AnswerGroup12.CheckboxInput3').checked = !document.getElementById('AnswerGroup12.CheckboxInput3').checked;" style="cursor: default;">Requires 2 or more therapy modalities including PT.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageCheckboxInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="checkbox" name="AnswerGroup12" id="AnswerGroup12.CheckboxInput4" value="<P>At minimal assistance level or requiring greater assistance - <FONT face=&quot;Times New Roman&quot;>patient can performs 75% or more of tasks. </P></FONT>"></td>
+                                <td>
+                                  <div class="pageInputLabel pageCheckboxInputLabel" onclick="document.getElementById('AnswerGroup12.CheckboxInput4').checked = !document.getElementById('AnswerGroup12.CheckboxInput4').checked;" style="cursor: default;"><P>At minimal assistance level or requiring greater assistance - <FONT face="Times New Roman">patient can performs 75% or more of tasks. </P></FONT></div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageCheckboxInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="checkbox" name="AnswerGroup12" id="AnswerGroup12.CheckboxInput5" value="LiveSafe total score average is between 25 and 50."></td>
+                                <td>
+                                  <div class="pageInputLabel pageCheckboxInputLabel" onclick="document.getElementById('AnswerGroup12.CheckboxInput5').checked = !document.getElementById('AnswerGroup12.CheckboxInput5').checked;" style="cursor: default;">LiveSafe total score average is between 25 and 50.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageCheckboxInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="checkbox" name="AnswerGroup12" id="AnswerGroup12.CheckboxInput6" value="Patient has restricted weight bearing status."></td>
+                                <td>
+                                  <div class="pageInputLabel pageCheckboxInputLabel" onclick="document.getElementById('AnswerGroup12.CheckboxInput6').checked = !document.getElementById('AnswerGroup12.CheckboxInput6').checked;" style="cursor: default;">Patient has restricted weight bearing status.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageCheckboxInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="checkbox" name="AnswerGroup12" id="AnswerGroup12.CheckboxInput7" value="N/A"></td>
+                                <td>
+                                  <div class="pageInputLabel pageCheckboxInputLabel" onclick="document.getElementById('AnswerGroup12.CheckboxInput7').checked = !document.getElementById('AnswerGroup12.CheckboxInput7').checked;" style="cursor: default;">N/A</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page" style="display:none" id="Section11">
+                  <div class="pageComponent pageQuestion">
+                    <div class="pageQuestionHeader"><img class="pageQuestionIconQ" alt="" src="IRF Decision Tree_folder/images/Q.png"><div class="pageQuestionText">Medical Complexity - Failed management at a lower level of care or repeated readmissions</div>
+                    </div>
+                    <div class="pageQuestionResponse"><img class="pageQuestionIconA" alt="" src="IRF Decision Tree_folder/images/A.png"><div class="pageQuestionInputs">
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup13" id="RadioButton33" value="Yes" onclick="Next();"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="$(MakeIdSelector('RadioButton33')).prop('checked', true);Next();" style="cursor: default;">Yes</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup13" id="RadioButton34" value="No" onclick="Next();"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="$(MakeIdSelector('RadioButton34')).prop('checked', true);Next();" style="cursor: default;">No</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page" style="display:none" id="Section12">
+                  <div class="pageComponent pageQuestion">
+                    <div class="pageQuestionHeader"><img class="pageQuestionIconQ" alt="" src="IRF Decision Tree_folder/images/Q.png"><div class="pageQuestionText">Goals of Care: Requires interdisciplinary plan of care supervised by a physiatrist - organized oversight of multiple complex rehab and medical issues.</div>
+                    </div>
+                    <div class="pageQuestionResponse"><img class="pageQuestionIconA" alt="" src="IRF Decision Tree_folder/images/A.png"><div class="pageQuestionInputs">
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup14" id="RadioButton51" value="Yes" onclick="Next();"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="$(MakeIdSelector('RadioButton51')).prop('checked', true);Next();" style="cursor: default;">Yes</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup14" id="RadioButton52" value="No" onclick="Next();"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="$(MakeIdSelector('RadioButton52')).prop('checked', true);Next();" style="cursor: default;">No</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page" style="display:none" id="Section13">
+                  <div class="pageComponent pageQuestion">
+                    <div class="pageQuestionHeader"><img class="pageQuestionIconQ" alt="" src="IRF Decision Tree_folder/images/Q.png"><div class="pageQuestionText">Is the appropriate level of care available?</div>
+                    </div>
+                    <div class="pageQuestionResponse"><img class="pageQuestionIconA" alt="" src="IRF Decision Tree_folder/images/A.png"><div class="pageQuestionInputs">
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup15" id="RadioButton58" value="<P style=&quot;MARGIN: 0in 0in 8pt&quot; class=MsoNormal><FONT face=Calibri>No lower level of care available in proximity offering necessary services.<?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; /><o:p></o:p></FONT></P>"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton58')).prop('checked', true);&#xA;                              " style="cursor: default;"><P style="MARGIN: 0in 0in 8pt" class=MsoNormal><FONT face=Calibri>No lower level of care available in proximity offering necessary services.<?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></FONT></P></div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup15" id="RadioButton59" value="<P style=&quot;MARGIN: 0in 0in 8pt&quot; class=MsoNormal><FONT face=Calibri>No lower level of care in proximity able to provide appropriate care w/ available capacity.<?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; /><o:p></o:p></FONT></P>"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton59')).prop('checked', true);&#xA;                              " style="cursor: default;"><P style="MARGIN: 0in 0in 8pt" class=MsoNormal><FONT face=Calibri>No lower level of care in proximity able to provide appropriate care w/ available capacity.<?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></FONT></P></div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup15" id="RadioButton60" value="Yes - lower level of care available in proximity offering appropriate services with access."></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="&#xA;                                $(MakeIdSelector('RadioButton60')).prop('checked', true);&#xA;                              " style="cursor: default;">Yes - lower level of care available in proximity offering appropriate services with access.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page" style="display:none" id="Section15">
+                  <div class="pageComponent pageQuestion">
+                    <div class="pageQuestionHeader"><img class="pageQuestionIconQ" alt="" src="IRF Decision Tree_folder/images/Q.png"><div class="pageQuestionText">Is this acute exacerbation of a chronic neurologic or muskoskeletal condition?</div>
+                    </div>
+                    <div class="pageQuestionResponse"><img class="pageQuestionIconA" alt="" src="IRF Decision Tree_folder/images/A.png"><div class="pageQuestionInputs">
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup16" id="RadioButton35" value="Yes" onclick="Next();"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="$(MakeIdSelector('RadioButton35')).prop('checked', true);Next();" style="cursor: default;">Yes</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup16" id="RadioButton36" value="No" onclick="Next();"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="$(MakeIdSelector('RadioButton36')).prop('checked', true);Next();" style="cursor: default;">No</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page" style="display:none" id="Section16">
+                  <div class="pageComponent pageQuestion">
+                    <div class="pageQuestionHeader"><img class="pageQuestionIconQ" alt="" src="IRF Decision Tree_folder/images/Q.png"><div class="pageQuestionText">Potential for meaningful functional gains in a reasonable amount of time - has already begun to show functional gains during acute stay.</div>
+                    </div>
+                    <div class="pageQuestionResponse"><img class="pageQuestionIconA" alt="" src="IRF Decision Tree_folder/images/A.png"><div class="pageQuestionInputs">
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup17" id="RadioButton39" value="Yes" onclick="Next();"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="$(MakeIdSelector('RadioButton39')).prop('checked', true);Next();" style="cursor: default;">Yes</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup17" id="RadioButton40" value="No" onclick="Next();"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="$(MakeIdSelector('RadioButton40')).prop('checked', true);Next();" style="cursor: default;">No</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page" style="display:none" id="Section17">
+                  <div class="pageComponent pageQuestion">
+                    <div class="pageQuestionHeader"><img class="pageQuestionIconQ" alt="" src="IRF Decision Tree_folder/images/Q.png"><div class="pageQuestionText">Can the patients needs be met in a lower level of care (e.g., SNF, Home with HH)?</div>
+                    </div>
+                    <div class="pageQuestionResponse"><img class="pageQuestionIconA" alt="" src="IRF Decision Tree_folder/images/A.png"><div class="pageQuestionInputs">
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup18" id="RadioButton41" value="Yes" onclick="Next();"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="$(MakeIdSelector('RadioButton41')).prop('checked', true);Next();" style="cursor: default;">Yes</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup18" id="RadioButton42" value="No" onclick="Next();"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="$(MakeIdSelector('RadioButton42')).prop('checked', true);Next();" style="cursor: default;">No</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page" style="display:none" id="Section18">
+                  <div class="pageComponent pageQuestion">
+                    <div class="pageQuestionHeader"><img class="pageQuestionIconQ" alt="" src="IRF Decision Tree_folder/images/Q.png"><div class="pageQuestionText">Burns (Check Applicable)</div>
+                    </div>
+                    <div class="pageQuestionResponse"><img class="pageQuestionIconA" alt="" src="IRF Decision Tree_folder/images/A.png"><div class="pageQuestionInputs">
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageCheckboxInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="checkbox" name="AnswerGroup19" id="AnswerGroup19.CheckboxInput1" value="Active medical comorbid condition."></td>
+                                <td>
+                                  <div class="pageInputLabel pageCheckboxInputLabel" onclick="document.getElementById('AnswerGroup19.CheckboxInput1').checked = !document.getElementById('AnswerGroup19.CheckboxInput1').checked;" style="cursor: default;">Active medical comorbid condition.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageCheckboxInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="checkbox" name="AnswerGroup19" id="AnswerGroup19.CheckboxInput2" value="Requires specialized therapy services that cannot be delivered as an outpatient."></td>
+                                <td>
+                                  <div class="pageInputLabel pageCheckboxInputLabel" onclick="document.getElementById('AnswerGroup19.CheckboxInput2').checked = !document.getElementById('AnswerGroup19.CheckboxInput2').checked;" style="cursor: default;">Requires specialized therapy services that cannot be delivered as an outpatient.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageCheckboxInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="checkbox" name="AnswerGroup19" id="AnswerGroup19.CheckboxInput3" value="N/A"></td>
+                                <td>
+                                  <div class="pageInputLabel pageCheckboxInputLabel" onclick="document.getElementById('AnswerGroup19.CheckboxInput3').checked = !document.getElementById('AnswerGroup19.CheckboxInput3').checked;" style="cursor: default;">N/A</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page" style="display:none" id="Section19">
+                  <div class="pageComponent pageQuestion">
+                    <div class="pageQuestionHeader"><img class="pageQuestionIconQ" alt="" src="IRF Decision Tree_folder/images/Q.png"><div class="pageQuestionText">Patient able to maintain weight bearing status?</div>
+                    </div>
+                    <div class="pageQuestionResponse"><img class="pageQuestionIconA" alt="" src="IRF Decision Tree_folder/images/A.png"><div class="pageQuestionInputs">
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup20" id="RadioButton47" value="Yes" onclick="Next();"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="$(MakeIdSelector('RadioButton47')).prop('checked', true);Next();" style="cursor: default;">Yes</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup20" id="RadioButton48" value="No" onclick="Next();"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="$(MakeIdSelector('RadioButton48')).prop('checked', true);Next();" style="cursor: default;">No</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page" style="display:none" id="Section20">
+                  <div class="pageComponent pageQuestion">
+                    <div class="pageQuestionHeader"><img class="pageQuestionIconQ" alt="" src="IRF Decision Tree_folder/images/Q.png"><div class="pageQuestionText">May not be appropriate for IRF.
+ Do you agree with this conclusion?</div>
+                    </div>
+                    <div class="pageQuestionResponse"><img class="pageQuestionIconA" alt="" src="IRF Decision Tree_folder/images/A.png"><div class="pageQuestionInputs">
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup21" id="RadioButton53" value="Yes" onclick="Next();"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="$(MakeIdSelector('RadioButton53')).prop('checked', true);Next();" style="cursor: default;">Yes</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup21" id="RadioButton54" value="No" onclick="Next();"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="$(MakeIdSelector('RadioButton54')).prop('checked', true);Next();" style="cursor: default;">No</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageTextboxInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><label class="pageInputLabel pageTextboxInputLabel" for="Textbox1"><P>Please provide any comments related to conclusion.</P></label></td>
+                                <td><input type="text" class="pageTextboxControl" name="" id="Textbox1"></td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page" style="display:none" id="Section21">
+                  <div class="pageComponent pageQuestion">
+                    <div class="pageQuestionHeader"><img class="pageQuestionIconQ" alt="" src="IRF Decision Tree_folder/images/Q.png"><div class="pageQuestionText">May be appropriate for IRF.
+ Do you agree with this conlsuion?</div>
+                    </div>
+                    <div class="pageQuestionResponse"><img class="pageQuestionIconA" alt="" src="IRF Decision Tree_folder/images/A.png"><div class="pageQuestionInputs">
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup23" id="RadioButton55" value="Yes" onclick="Next();"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="$(MakeIdSelector('RadioButton55')).prop('checked', true);Next();" style="cursor: default;">Yes</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="pageInput pageRadioInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><input type="radio" name="AnswerGroup23" id="RadioButton56" value="No" onclick="Next();"></td>
+                                <td>
+                                  <div class="pageInputLabel pageRadioInputLabel" onclick="$(MakeIdSelector('RadioButton56')).prop('checked', true);Next();" style="cursor: default;">No</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="pageAnswerGroup">
+                          <div class="pageInput pageTextboxInput">
+                            <table cellpadding="1" cellspacing="1">
+                              <tr>
+                                <td><label class="pageInputLabel pageTextboxInputLabel" for="Textbox3"><P>Please provider any additional related comments.</P></label></td>
+                                <td><input type="text" class="pageTextboxControl" name="" id="Textbox3"></td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="clear"></div>
+              <div id="summary" class="pageComponent sessionSummary" style="display:none;">
+                <div class="sessionSummaryHeader" style="background-image:url(&quot;IRF Decision Tree_folder/images/backgroundQuestion.jpg&quot;); ">
+                  <div class="sessionSummaryTitle">
+							                    Session Summary
+						                    </div>
+                </div>
+                <div class="sessionSummaryContent" id="summaryHtml"></div>
+              </div>
+              <div class="navigation">
+                <div id="controls"><input type="button" class="button buttonReset" id="btnReset" value="Reset" onclick="Reset();"><input type="button" class="button buttonPrevious" id="btnPrevious" value="<< Previous" onclick="Previous();"><input type="button" class="button buttonNext" id="btnNext" value="Next >>" onclick="Next();"><input type="button" class="button buttonFinish" id="btnEndRequest" value="Finish" onclick="EndRequest();"></div>
+              </div>
+            </div>
+          </div>
+          <div class="clear"></div><br><br><br><br></div><br><br><br><div style="width:100%"></div>
+      </div>
+    </div>
+  </body>
+</html>
